@@ -8,12 +8,10 @@ larger, more complicated project involving the extraction of the sites data.
 
 Setup
 ---
-_PyPi installation_
 ```
 pip install wrapper-py-coinmarketcap
 ```
-
-_source installation_
+_or_
 ```
 python setup.py install
 ```
