@@ -6,14 +6,11 @@ A Python wrapper for [www.coinmarketcap.com]() that provides concise functionali
 extracting crypto market data. This software is meant to be used in conjunction with a 
 larger, more complicated project involving the extraction of the sites data.
 
-###### Functions
-~
-
 Setup
 ---
 _PyPi installation_
 ```
-pip install wrapper-coinmarketcap
+pip install wrapper-py-coinmarketcap
 ```
 
 _source installation_
@@ -23,11 +20,11 @@ python setup.py install
 
 Usage
 ---
-~
+N/A
 
 Note
 ---
-This alone is not a project, but more a library of function that one can apply. PyPi 
+This alone is not a project, but more a library of functions that one can apply. PyPi 
 installation is most preferred.
 
 License
