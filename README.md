@@ -21,6 +21,7 @@ Usage
 You have a few option for using the wrapper:
 
 0. Run Python shell and enter:
+
     ```
     >>> from wrapper-py-coinmarketcap import Market
     >>> market = Market()
