@@ -18,7 +18,18 @@ python setup.py install
 
 Usage
 ---
-N/A
+You have a few option for using the wrapper:
+
+0. Run Python shell and enter:
+    ```
+    >>> from wrapper-py-coinmarketcap import Market
+    >>> market = Market()
+    >>> market.coin('ethereum')
+    >>> market.stats()
+    ```
+
+0. You can apply the code above to a py-file you're writing an work with that.
+0. You can copy&paste and/or run `test.py` from the git repo.
 
 Note
 ---

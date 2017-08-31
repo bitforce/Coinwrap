@@ -9,7 +9,6 @@ class Market(object):
         self.url = url
         self.timeout = timeout
 
-    @property
     def session(self):
         self._session = requests.Session()
         self._session.headers.update({'Content-Type': 'application/json'})
@@ -29,7 +28,7 @@ class Market(object):
 
         return response
 
-    def coin(self, currency="", **kwargs):
+    def coin(self, currency='', **kwargs):
             params = {}
             params.update(kwargs)
             response = self.__request('ticker/' + currency, params)
