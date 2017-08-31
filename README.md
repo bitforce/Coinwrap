@@ -6,6 +6,10 @@ A Python wrapper for [www.coinmarketcap.com]() that provides concise functionali
 extracting crypto market data. This software is meant to be used in conjunction with a 
 larger, more complicated project involving the extraction of the sites data.
 
+_This project was inspired by Martin Simmon's_ [coinmarketcap-api][_];_make sure to 
+check him out and other great projects of his._
+[_]: 'https://github.com/mrsmn/coinmarketcap-api'
+
 Setup
 ---
 ```
@@ -22,12 +26,12 @@ You have a few option for using the wrapper:
 
 1. Run Python shell and enter:
 
-  ```
-  >>> from wrapper-py-coinmarketcap import Market
-  >>> market = Market()
-  >>> market.coin('ethereum')
-  >>> market.stats()
-  ```
+    ```
+    >>> from wrapper-py-coinmarketcap import Market
+    >>> market = Market()
+    >>> market.coin('ethereum')
+    >>> market.stats()
+    ```
 
 2. You can apply the code above to a py-file you're writing an work with that.
 3. You can copy&paste and/or run `test.py` from the git repo.
