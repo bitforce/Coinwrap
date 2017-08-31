@@ -1,8 +1,8 @@
 # CoinMarketCap Python Wrapper
 
-[![()](https://img.shields.io/shippable/5444c5ecb904a4b21567b0ff.svg)]()
-[![()](https://readthedocs.org/projects/pip/badge/?version=stable)]()
-[![()](https://img.shields.io/pypi/v/pip.svg)]()
+[![(Build Status)](https://img.shields.io/shippable/5444c5ecb904a4b21567b0ff.svg)][3]
+[![(Docs Status)](https://readthedocs.org/projects/pip/badge/?version=stable)]()
+[![(Pip Version)](https://img.shields.io/pypi/v/pip.svg)]()
 
 Overview
 ---
@@ -16,6 +16,7 @@ hit his Gitub up and check out other cool projects_.
 
 [1]: https://coinmarketcap.com/api/
 [2]: https://github.com/mrsmn/coinmarketcap-api
+[3]: http://docs.readthedocs.io/en/latest/badges.html
 
 Setup
 ---
