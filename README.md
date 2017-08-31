@@ -22,12 +22,12 @@ You have a few option for using the wrapper:
 
 1. Run Python shell and enter:
 
-    ```
-    >>> from wrapper-py-coinmarketcap import Market
-    >>> market = Market()
-    >>> market.coin('ethereum')
-    >>> market.stats()
-    ```
+  ```
+  >>> from wrapper-py-coinmarketcap import Market
+  >>> market = Market()
+  >>> market.coin('ethereum')
+  >>> market.stats()
+  ```
 
 2. You can apply the code above to a py-file you're writing an work with that.
 3. You can copy&paste and/or run `test.py` from the git repo.
