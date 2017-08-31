@@ -20,7 +20,7 @@ Usage
 ---
 You have a few option for using the wrapper:
 
-2. Run Python shell and enter:
+1. Run Python shell and enter:
 
     ```
     >>> from wrapper-py-coinmarketcap import Market
@@ -29,8 +29,8 @@ You have a few option for using the wrapper:
     >>> market.stats()
     ```
 
-3. You can apply the code above to a py-file you're writing an work with that.
-4. You can copy&paste and/or run `test.py` from the git repo.
+2. You can apply the code above to a py-file you're writing an work with that.
+3. You can copy&paste and/or run `test.py` from the git repo.
 
 Note
 ---
