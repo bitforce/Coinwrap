@@ -6,10 +6,11 @@ A Python wrapper for [www.coinmarketcap.com]() that provides concise functionali
 extracting crypto market data. This software is meant to be used in conjunction with a 
 larger, more complicated project involving the extraction of the sites data.
 
-_This project was inspired by Martin Simmon's_ [coinmarketcap-api][1];_make sure to 
-check him out and other great projects of his._
+_This project was inspired by Martin Simmon's_ 
+[coinmarketcap-api]('https://github.com/mrsmn/coinmarketcap-api');
+_make sure to check him out and other great projects of his._
 
-[1]: 'https://github.com/mrsmn/coinmarketcap-api'
+[1]: 
 
 Setup
 ---
