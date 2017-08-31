@@ -27,7 +27,7 @@ python setup.py install
 
 Usage
 ---
-See `tests/test.py` for example.
+See `tests/test.py` as example.
 
 Note
 ---
@@ -36,7 +36,7 @@ installation is most preferred.
 
 License
 ---
-Licensed under the WTFPL - see [LICENSE](./LICENSE) for explicit details.
+Licensed under the WTFPL - see [LICENSE](./doc/LICENSE) for explicit details.
 
 Version
 ---
