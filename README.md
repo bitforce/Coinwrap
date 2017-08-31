@@ -6,7 +6,7 @@
 
 Overview
 ---
-A Python wrapper for the [https://coinmarketcap.com]() [api][1] that provides concise 
+A Python wrapper for the [https://coinmarketcap.com/]() [api][1] that provides concise 
 functionality for extracting crypto market data. This software is meant to be used in 
 conjunction with a larger, more complicated project involving the extraction of the 
 sites data.
