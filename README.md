@@ -1,5 +1,9 @@
 # CoinMarketCap Python Wrapper
 
+[![()](https://img.shields.io/shippable/5444c5ecb904a4b21567b0ff.svg)]()
+[![()](https://readthedocs.org/projects/pip/badge/?version=stable)]()
+[![()](https://img.shields.io/pypi/v/pip.svg)]()
+
 Overview
 ---
 A Python wrapper for [www.coinmarketcap.com]() that provides concise functionality for 
@@ -23,19 +27,7 @@ python setup.py install
 
 Usage
 ---
-You have a few option for using the wrapper:
-
-1. Run Python shell and enter:
-
-    ```
-    >>> from wrapper-py-coinmarketcap import Market
-    >>> market = Market()
-    >>> market.coin('ethereum')
-    >>> market.stats()
-    ```
-
-2. You can apply the code above to a py-file you're writing an work with that.
-3. You can copy&paste and/or run `test.py` from the git repo.
+See `tests/test.py` for example.
 
 Note
 ---
