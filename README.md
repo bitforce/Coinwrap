@@ -9,8 +9,6 @@ larger, more complicated project involving the extraction of the sites data.
 [coinmarketcap-api]('https://github.com/mrsmn/coinmarketcap-api')
 
 
-[1]: 
-
 Setup
 ---
 ```
