@@ -6,7 +6,8 @@ branches:
 build:
     pre_ci:
         pip install --upgrade wrapper-py-coinmarketcap
-    python tests/test.py
+    ci:
+        python tests/test.py
 
 notifications:
     email: false
