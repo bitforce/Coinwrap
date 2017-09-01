@@ -1,13 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name='wrapper-coinmarketcap',
     version='1.0.0',
-    url='https://github.com/bitforce/wrapper-coinmarketcap',
+    packages=['lib'],
+    name='wrapper-py-coinmarketcap',
     author='Brandon Johnson',
+    license=open('./doc/LICENSE', 'r').read(),
+    long_description=open('README.rst', 'r').read(),
     author_email='brandon.johnson.official@gmail.com',
-    license='WTFPL',
-    description='Python wrapper for https://coinmarketcap.com',
-    packages=['wrapper-coinmarketcap'],
-    long_description=open('README.md', 'r').read()
+    url='https://github.com/bitforce/wrapper-py-coinmarketcap',
+    description='Python wrapper created for https://coinmarketcap.com'
 )

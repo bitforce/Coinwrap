@@ -1,5 +1,17 @@
 language: python
 
 branches:
-    only:
-        master
+    only: master
+
+build:
+    pre_ci:
+        echo 'installing dependencies...'
+        pip install --upgrade wrapper-py-coinmarketcap
+    python tests/test.py
+    on_success:
+        echo 'passing build'
+    on_failure:
+        echo 'failing build'
+
+notifications:
+    email: false
