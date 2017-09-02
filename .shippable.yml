@@ -1,13 +1,12 @@
 language: python
 
-python: 2.7.11
+python: 2.7
 
 branches:
     only: master
 
 build:
     pre_ci:
-        pip install --upgrade virtualenv
         pip install --upgrade pytest
     ci:
         - coverage run coinmarketcap_wrapper/test/test_core.py
