@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    version='1.0.1',
+    version='0.0.1',
     name='coinmarketcap_wrapper',
     author='Brandon Johnson',
     packages=['coinmarketcap_wrapper'],
