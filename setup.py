@@ -12,5 +12,10 @@ setup(
     keywords=['coinmarketcap', 'cryptocurrency', 'wrapper'],
     url='https://github.com/bitforce/wrapper-py-coinmarketcap',
     description='Python wrapper created for https://coinmarketcap.com API',
-    download_url='https://github.com/bitforce/wrapper-py-coinmarketcap/archive/1.0.1.tar.gz'
+    download_url='https://github.com/bitforce/wrapper-py-coinmarketcap/archive/1.0.1.tar.gz',
+    classifiers=[
+        'Natural Language :: English',
+        'Intended Audience :: Developers',
+        'Development Status :: 3 - Alpha',
+        'Programming Language :: Python :: 2.7']
 )
