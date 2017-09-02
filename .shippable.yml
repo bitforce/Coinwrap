@@ -7,9 +7,11 @@ branches:
 
 build:
     pre_ci:
-        pip install --upgrade wrapper-py-coinmarketcap
+        pip install --upgrade coinmarketcap_wrapper
+        pip install --upgrade pytest
     ci:
-        python tests/test.py
+        - coverage run
+        - pytest
 
 notifications:
     email: false

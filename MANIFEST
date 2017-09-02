@@ -1,4 +1,10 @@
-README
+LICENSE
+README.md
+setup.cfg
 setup.py
-lib/__init__.py
-lib/core.py
+coinmarketcap_wrapper/__init__.py
+coinmarketcap_wrapper/core.py
+coinmarketcap_wrapper/test/__init__.py
+coinmarketcap_wrapper/test/__init__.pyc
+coinmarketcap_wrapper/test/test_core.py
+doc/core.rst

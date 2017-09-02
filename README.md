@@ -21,7 +21,7 @@ hit his Gitub up and check out other cool projects_.
 Setup
 ---
 ```
-pip install wrapper-py-coinmarketcap
+pip install coinmarketcap_wrapper
 ```
 _or_
 ```
@@ -30,7 +30,11 @@ python setup.py install
 
 Usage
 ---
-EDIT
+N/A
+
+Test
+----
+N/A
 
 Note
 ---

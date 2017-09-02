@@ -1,6 +1,6 @@
-__pycache__
-.ropeproject
-.cache
+__pycache__/
+.ropeproject/
+.cache/
 .DS_Store
 *.pyc
 *.swp
