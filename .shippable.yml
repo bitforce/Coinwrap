@@ -7,10 +7,10 @@ branches:
 
 build:
     pre_ci:
-        pip install --upgrade coinmarketcap_wrapper
+        pip install --upgrade virtualenv
         pip install --upgrade pytest
     ci:
-        - coverage run
+        - coverage run coinmarketcap_wrapper/test/test_core.py
         - pytest
 
 notifications:
