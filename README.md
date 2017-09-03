@@ -21,7 +21,7 @@ hit his Gitub up and check out other cool projects_.
 Setup
 ---
 ```
-pip install coinmarketcap_wrapper
+pip install cmcwrap
 ```
 _or_
 ```
@@ -30,11 +30,11 @@ python setup.py install
 
 Usage
 ---
-N/A
+See the function in *cmcwrap/test/test_core.py* to view the implementation of the API.
 
 Test
 ----
-N/A
+`pytest [-s]`
 
 Note
 ---

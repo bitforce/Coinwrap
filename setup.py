@@ -2,9 +2,9 @@ from distutils.core import setup
 
 setup(
     version='0.0.1',
-    name='coinmarketcap_wrapper',
+    name='cmcwrap',
     author='Brandon Johnson',
-    packages=['coinmarketcap_wrapper'],
+    packages=['cmcwrap'],
     install_requires=['requests', 'pytest'],
     license=open('./LICENSE', 'r').read(),
     long_description=open('./README.md', 'r').read(),
