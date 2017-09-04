@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from .core import Market
 
 __repo__ = 'https://github.com/bitforce/wrapper-py-coinmarketcap'

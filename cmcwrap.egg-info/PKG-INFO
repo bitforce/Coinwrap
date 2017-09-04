@@ -1,0 +1,92 @@
+Metadata-Version: 1.1
+Name: cmcwrap
+Version: 0.0.5
+Summary: Python wrapper created for https://coinmarketcap.com API
+Home-page: https://github.com/bitforce/wrapper-py-coinmarketcap
+Author: Brandon Johnson
+Author-email: brandon.johnson.official@gmail.com
+License:            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2017 Brandon Johnson <brandon.johnson.official@gmail.com>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
+
+Download-URL: https://github.com/bitforce/wrapper-py-coinmarketcap/archive/1.0.1.tar.gz
+Description-Content-Type: UNKNOWN
+Description: # CoinMarketCap Python Wrapper
+        
+        [![Run Status][3]][4]
+        [![Coverage Badge][5]][6]
+        
+        Overview
+        ---
+        A Python wrapper for the [https://coinmarketcap.com/]() [api][1] that provides concise 
+        functionality for extracting crypto-market data. 
+        
+        _This project was inspired by Martin Simon's_ [coinmarketcap-api][2] _; make sure to 
+        hit his Gitub up and check out other cool projects_.
+        
+        [1]: https://coinmarketcap.com/api/
+        [2]: https://github.com/mrsmn/coinmarketcap-api
+        [4]: https://app.shippable.com/github/bitforce/wrapper-py-coinmarketcap
+        [6]: https://app.shippable.com/github/bitforce/wrapper-py-coinmarketcap
+        [3]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/badge?branch=master
+        [5]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/coverageBadge?branch=master
+        
+        Dependencies
+        ---
+        - python `requests`
+        - python `pytest`
+        
+        Setup
+        ---
+        `pip install cmcwrap` _or_ `python setup.py install`
+        
+        Usage
+        ---
+        ```
+        from cmcwrap import Market
+        market = Market()
+        market.coin('bitcoin')
+        market.coin('bitcoin', limit=2)
+        market.coin('bitcoin', limit=2, convert='EUR')
+        market.stats()
+        ```
+        
+        Test
+        ---
+        `pytest [-s]`
+        
+        Note
+        ---
+        If you do decide to pull the git repo (download it), you type the latter setup command in 
+        the top-level dir where the _setup.py_ file is.
+        
+        License
+        ---
+        Licensed under the WTFPL - see [LICENSE](./doc/LICENSE) for explicit details.
+        
+        Version
+        ---
+        1.0.0
+        
+        Author
+        ---
+        [LinkedIn](https://www.linkedin.com/in/brandonjohnsonxyz/)
+        [Personal](https://brandonjohnson.life)
+        [GitHub](https://github.com/bitforce)
+        
+Keywords: coinmarketcap,cryptocurrency,wrapper
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2.7

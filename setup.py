@@ -1,12 +1,14 @@
-from distutils.core import setup
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
 
 setup(
-    version='0.0.1',
     name='cmcwrap',
-    author='Brandon Johnson',
+    version='0.0.5',
     packages=['cmcwrap'],
-    install_requires=['requests', 'pytest'],
+    author='Brandon Johnson',
     license=open('./LICENSE', 'r').read(),
+    install_requires=['requests', 'pytest'],
     long_description=open('./README.md', 'r').read(),
     author_email='brandon.johnson.official@gmail.com',
     keywords=['coinmarketcap', 'cryptocurrency', 'wrapper'],

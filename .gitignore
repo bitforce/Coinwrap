@@ -1,6 +1,10 @@
-__pycache__/
 .ropeproject/
-.cache/
+__pycache__/
+MANIFEST.in
 .DS_Store
+.clean.sh
+.cache/
+*.egg/
 *.pyc
 *.swp
+dist

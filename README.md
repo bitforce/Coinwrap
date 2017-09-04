@@ -18,27 +18,34 @@ hit his Gitub up and check out other cool projects_.
 [3]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/badge?branch=master
 [5]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/coverageBadge?branch=master
 
+Dependencies
+---
+- python `requests`
+- python `pytest`
+
 Setup
 ---
-```
-pip install cmcwrap
-```
-_or_
-```
-python setup.py install
-```
+`pip install cmcwrap` _or_ `python setup.py install`
 
 Usage
 ---
-See the function in *cmcwrap/test/test_core.py* to view the implementation of the API.
+```
+from cmcwrap import Market
+market = Market()
+market.coin('bitcoin')
+market.coin('bitcoin', limit=2)
+market.coin('bitcoin', limit=2, convert='EUR')
+market.stats()
+```
 
 Test
-----
+---
 `pytest [-s]`
 
 Note
 ---
-N/A
+If you do decide to pull the git repo (download it), you type the latter setup command in 
+the top-level dir where the _setup.py_ file is.
 
 License
 ---

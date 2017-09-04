@@ -1,3 +1,4 @@
 include setup.py setup.cfg LICENSE README.md
-recursive-include cmcwrap*
+recursive-include cmcwrap.eqg-info *
+recursive-include cmcwrap *
 recursive-include doc *
