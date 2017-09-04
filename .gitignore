@@ -1,10 +1,10 @@
+cmcwrap.egg-info/
 .ropeproject/
 __pycache__/
 MANIFEST.in
 .DS_Store
 .clean.sh
 .cache/
-*.egg-info/
 *.pyc
 *.swp
 dist
