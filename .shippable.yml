@@ -12,11 +12,6 @@ build:
         - coverage run cmcwrap/test/test_core.py
         - coverage xml -o shippable/codecoverage/coverage.xml
         - pytest
-    on_success:
-        - echo 'build success'
-        - ./clean.sh
-    on_failure:
-        - echo 'build failure'
 
 notifications:
     email: false
