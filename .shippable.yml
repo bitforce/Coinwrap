@@ -7,8 +7,9 @@ branches:
 
 build:
     ci:
-        - pip install --upgrade cmcwrap
+        - pip install --upgrade pytest-cov
         - pip install --upgrade pytest
+        - pip install --upgrade cmcwrap
         - mkdir -p shippable/codecoverage
         - mkdir -p shippable/testresults
         - pytest --junitxml=shippable/testresults/nosetests.xml
