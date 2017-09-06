@@ -1,13 +1,17 @@
-__pycache__/
+########################################
+_pycache__/
 dist/
 
 .ropeproject/
-*.egg-info/
 .cache/
 
 MANIFEST.in
 clean.sh
 
 .DS_Store
+
+########################################
+*.egg-info/
+
 *.pyc
 *.swp

@@ -12,6 +12,3 @@ build:
         - coverage run cmcwrap/test/test_core.py
         - coverage xml -o shippable/codecoverage/coverage.xml
         - pytest
-
-notifications:
-    email: false
