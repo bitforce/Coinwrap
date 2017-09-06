@@ -15,7 +15,9 @@ build:
 
 integrations:
     notification:
-        irc: 'chat.freenode.net#cmcwrap'
+        integrationName: irc-integration
+        type: irc
+        recipients: 'chat.freenode.net#cmcwrap'
         on_pull_request: always
         on_success: always
         on_failure: always
