@@ -15,7 +15,7 @@ build:
 
 integrations:
     hub:
-        integration-name: irc-integration
+      - integrationName: irc-integration
         type: irc
         recepients: 'chat.freenode.net#cmcwrap'
         on_pull_request: always
