@@ -9,9 +9,10 @@ build:
     ci:
         - pip install --upgrade cmcwrap
         - pip install --upgrade pytest
-        - pytest
-        - coverage run cmcwrap/test/test_core.py
-        - coverage xml -o shippable/codecoverage/coverage.xml
+        - mkdir -p shippable/codecoverage
+        - mkdir -p shippable/testresults
+        - pytest --junitxml=shippable/testresults/nosetests.xml
+        - pytest --cov=modules --cov-report=xml:shippable/codecoverage/coverage.xml
 
 integrations:
     notification:
