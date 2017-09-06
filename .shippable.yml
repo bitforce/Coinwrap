@@ -12,3 +12,14 @@ build:
         - coverage run cmcwrap/test/test_core.py
         - coverage xml -o shippable/codecoverage/coverage.xml
         - pytest
+
+integrations:
+    notifications:
+        integration-name: irc-integration
+        type: irc
+        recepients: 'chat.freenode.net#cmcwrap'
+        on_pull_request: always
+        on_success: always
+        on_failure: always
+        on_cancel: always
+        on_start: never

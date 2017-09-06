@@ -45,7 +45,8 @@ Test
 Note
 ---
 If you do decide to pull the git repo (download it), you type the latter setup command in 
-the top-level dir where the _setup.py_ file is.
+the top-level dir where the _setup.py_ file is. The _-s_ option for `pytest` prints the 
+output along with the test results.
 
 License
 ---
