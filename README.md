@@ -12,6 +12,7 @@ _This project was inspired by Martin Simon's_ [coinmarketcap-api][2] _; make sur
 hit his Gitub up and check out other cool projects_.
 
 [1]: https://coinmarketcap.com/api/
+[7]: https://github.com/bitforce/Cryptocast
 [2]: https://github.com/mrsmn/coinmarketcap-api
 [4]: https://app.shippable.com/github/bitforce/wrapper-py-coinmarketcap
 [6]: https://app.shippable.com/github/bitforce/wrapper-py-coinmarketcap
@@ -47,6 +48,8 @@ Note
 If you do decide to pull the git repo (download it), you type the latter setup command in 
 the top-level dir where the _setup.py_ file is. The _-s_ option for `pytest` prints the 
 output along with the test results.
+
+_To see a useful implementation of this project, check out_ [Cryptocast][7].
 
 License
 ---

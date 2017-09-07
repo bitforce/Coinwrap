@@ -7,7 +7,3 @@ def test_core():
     print market.coin('bitcoin', limit=1)
     print '\nstats()'
     print market.stats()
-
-
-if __name__ == '__main__':
-    test_core()

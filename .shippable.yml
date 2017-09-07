@@ -19,8 +19,8 @@ integrations:
     notification:
         type: irc
         recipients: "chat.freenode.net#cmcwrap"
-        on_pull_request: always
-        on_success: always
-        on_failure: always
-        on_cancel: always
-        on_start: never
+            on_pull_request: always
+            on_success: always
+            on_failure: always
+            on_cancel: always
+            on_start: never
