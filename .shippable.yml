@@ -13,7 +13,7 @@ build:
         - mkdir -p shippable/codecoverage
         - mkdir -p shippable/testresults
         - pytest --junitxml=shippable/testresults/nosetests.xml
-        - pytest --cov=cmcwrap/test/test_core.py --cov-report=xml:shippable/codecoverage/coverage.xml
+        - pytest --cov=. --cov-report=xml:shippable/codecoverage/coverage.xml
 
 integrations:
     notification:
