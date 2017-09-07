@@ -12,15 +12,15 @@ build:
         - pip install --upgrade cmcwrap
         - mkdir -p shippable/codecoverage
         - mkdir -p shippable/testresults
-        - pytest --junitxml=shippable/testresults/tests.xml
-        - pytest --cov=cmcwrap --cov-report=xml:shippable/codecoverage/coverage.xml
+        - pytest --junitxml=shippable//tests.xml
+        - pytest --cov=cmcwrap --cov-report=xml:shippable/coverage.xml
 
 integrations:
     notification:
         type: irc
-            recipients: "chat.freenode.net#cmcwrap"
-            on_pull_request: always
-            on_success: always
-            on_failure: always
-            on_cancel: always
-            on_start: never
+        recipients: "chat.freenode.net#cmcwrap"
+        on_pull_request: always
+        on_success: always
+        on_failure: always
+        on_cancel: always
+        on_start: never
