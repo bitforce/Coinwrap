@@ -13,13 +13,12 @@ build:
         - mkdir -p shippable/codecoverage
         - mkdir -p shippable/testresults
         - pytest --junitxml=shippable/testresults/nosetests.xml
-        - pytest --cov=modules --cov-report=xml:shippable/codecoverage/coverage.xml
+        - pytest --cov=cmcwrap/test/test_core.py --cov-report=xml:shippable/codecoverage/coverage.xml
 
 integrations:
     notification:
-        integrationName: irc-integration
         type: irc
-        recipients: 'chat.freenode.net#cmcwrap'
+        recipients: "chat.freenode.net#cmcwrap"
         on_pull_request: always
         on_success: always
         on_failure: always
