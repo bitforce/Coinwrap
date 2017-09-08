@@ -12,8 +12,8 @@ build:
         - pip install --upgrade cmcwrap
         - mkdir -p shippable/codecoverage
         - mkdir -p shippable/testresults
-        - pytest --junitxml=shippable/nosetests.xml
-        - pytest --cov=cmcwrap --cov-report=xml:shippable/coverage.xml
+        - pytest --junitxml=shippable/testresults/nosetests.xml
+        - pytest --cov=cmcwrap --cov-report=xml:shippable/codecoverage/coverage.xml
 
 integrations:
     notification:
