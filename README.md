@@ -1,8 +1,9 @@
 # CoinMarketCap Python Wrapper
 
-[![License][9]][a]
 [![Run Status][3]][4]
 [![Coverage Badge][5]][6]
+[![License][9]][a]
+[![PyPI version][b]][c]
 
 Overview
 ---
@@ -14,6 +15,8 @@ hit his Gitub up and check out other cool projects_.
 
 [a]: http://www.wtfpl.net/
 [1]: https://coinmarketcap.com/api/
+[c]: https://badge.fury.io/py/cmcwrap
+[b]: https://badge.fury.io/py/cmcwrap.svg 
 [7]: https://github.com/bitforce/Cryptocast
 [2]: https://github.com/mrsmn/coinmarketcap-api
 [9]: https://img.shields.io/badge/license-WTFPL-blue.svg
@@ -49,9 +52,7 @@ Test
 
 Note
 ---
-If you do decide to pull the git repo (download it), you type the latter setup command in 
-the top-level dir where the _setup.py_ file is. The _-s_ option for `pytest` prints the 
-output along with the test results.
+The _-s_ option for `pytest` prints the output along with the test results.
 
 _To see a useful implementation of this project, check out_ [Cryptocast][7].
 
