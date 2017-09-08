@@ -53,7 +53,7 @@ _To see a useful implementation of this project, check out_ [Cryptocast][7].
 
 License
 ---
-Licensed under the WTFPL - see [LICENSE](./doc/LICENSE) for explicit details.
+Licensed under the WTFPL - see [LICENSE](./LICENSE) for explicit details.
 
 Version
 ---

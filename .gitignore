@@ -7,10 +7,10 @@ dist/
 .cache/
 
 MANIFEST.in
-clean.sh
 
 .DS_Store
 .coverage
+.clean.sh
 
 *.egg-info/
 *.pyc

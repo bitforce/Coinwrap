@@ -12,7 +12,7 @@ build:
         - pip install --upgrade cmcwrap
         - mkdir -p shippable/codecoverage
         - mkdir -p shippable/testresults
-        - pytest --junitxml=shippable//tests.xml
+        - pytest --junitxml=shippable/tests.xml
         - pytest --cov=cmcwrap --cov-report=xml:shippable/coverage.xml
 
 integrations:
