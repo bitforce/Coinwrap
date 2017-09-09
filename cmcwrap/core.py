@@ -22,17 +22,17 @@ class Market(object):  # A.1
         if response_object.status_code != 200:
             raise Exception('An error occurred, please try again.')
         try:
-            return response = response_object.json()
+            return response_object.json()
         except(ValueError):
             raise Exception('could not parse response as JSON')
 
-    def coin(self, currency='', **kwargs):  # A.6
+    def coin(self, currency='', **kwargs):  # A.6 --> add @unused
             params = {}
             params.update(kwargs)
             response = self.__request('ticker/' + currency, params)
             return response
 
-    def stats(self, **kwargs):  # A.7
+    def stats(self, **kwargs):  # A.7 --> add @unused
             params = {}
             params.update(kwargs)
             response = self.__request('global/', params)

@@ -2,9 +2,6 @@ language: python
 
 python: 2.7
 
-branches:
-    only: master
-
 build:
     ci:
         - pip install --upgrade pytest-cov
