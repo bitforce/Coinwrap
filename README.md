@@ -1,7 +1,7 @@
 # CoinMarketCap Python Wrapper
 
 [![Run Status][3]][4]
-[![Coverage Badge][5]][6]
+[![Coverage Badge][5]][4]
 [![License][9]][a]
 [![PyPI version][b]][c]
 
@@ -11,7 +11,7 @@ A Python wrapper for the [https://coinmarketcap.com/]() [api][1] that provides c
 functionality for extracting crypto-market data. 
 
 _This project was inspired by Martin Simon's_ [coinmarketcap-api][2] _; make sure to 
-hit his Gitub up and check out other cool projects_.
+hit his Gitub up and check out his other cool projects_.
 
 [a]: http://www.wtfpl.net/
 [1]: https://coinmarketcap.com/api/
@@ -19,10 +19,9 @@ hit his Gitub up and check out other cool projects_.
 [b]: https://badge.fury.io/py/cmcwrap.svg 
 [7]: https://github.com/bitforce/Cryptocast
 [2]: https://github.com/mrsmn/coinmarketcap-api
+[4]: https://app.shippable.com/github/bitforce/cmcwrap
 [9]: https://img.shields.io/badge/license-WTFPL-blue.svg
 [8]: https://img.shields.io/badge/Issues-0-brightgreen.svg
-[4]: https://app.shippable.com/github/bitforce/wrapper-py-coinmarketcap
-[6]: https://app.shippable.com/github/bitforce/wrapper-py-coinmarketcap
 [3]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/badge?branch=master
 [5]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/coverageBadge?branch=master
 

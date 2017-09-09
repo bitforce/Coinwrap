@@ -5,8 +5,6 @@ dist/
 .ropeproject/
 .cache/
 
-MANIFEST.in
-
 .DS_Store
 .coverage
 .clean.sh

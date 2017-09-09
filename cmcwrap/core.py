@@ -13,8 +13,7 @@ class Market(object):  # A.1
     def session(self):  # A.4
         self._session = requests.Session()
         self._session.headers.update({'Content-Type': 'application/json'})
-        self._session.headers.update({'User-agent': 'github:\
-                                       bitforce/wrapper-py-coinmarketcap'})
+        self._session.headers.update({'User-agent': 'github:bitforce/wrapper-py-coinmarketcap'})
         return self._session
 
     def __request(self, endpoint, params):  # A.5
@@ -23,10 +22,9 @@ class Market(object):  # A.1
         if response_object.status_code != 200:
             raise Exception('An error occurred, please try again.')
         try:
-            response = response_object.json()
+            return response = response_object.json()
         except(ValueError):
             raise Exception('could not parse response as JSON')
-        return response
 
     def coin(self, currency='', **kwargs):  # A.6
             params = {}

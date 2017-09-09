@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='cmcwrap',
-    version='0.0.7',
+    version='0.0.8',
     packages=['cmcwrap'],
     author='Brandon Johnson',
     license=open('./LICENSE', 'r').read(),

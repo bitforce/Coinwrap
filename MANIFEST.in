@@ -1,0 +1,4 @@
+include setup.py setup.cfg LICENSE README.md
+recursive-include cmcwrap.egg-info *
+recursive-include cmcwrap *
+recursive-include doc *
