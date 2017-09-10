@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.cfg
-setup.py
-cmcwrap/__init__.py
-cmcwrap/core.py
-doc/core.rst

@@ -21,10 +21,7 @@ class Market(object):  # A.1
                                            timeout=self.timeout)
         if response_object.status_code != 200:
             raise Exception('An error occurred, please try again.')
-        try:
-            return response_object.json()
-        except(ValueError):
-            raise Exception('could not parse response as JSON')
+        return response_object.json()
 
     def coin(self, currency='', **kwargs):  # A.6 --> add @unused
             params = {}

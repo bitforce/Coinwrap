@@ -3,17 +3,18 @@ from setuptools import setup
 
 setup(
     name='cmcwrap',
-    version='0.0.8',
-    packages=['cmcwrap'],
+    version='0.1.5',
+    platforms='osx, linux',
     author='Brandon Johnson',
-    license=open('./LICENSE', 'r').read(),
+    license=open('LICENSE').read(),
+    packages=['cmcwrap', 'cmcwrap.test'],
     install_requires=['requests', 'pytest'],
+    long_description=open('README.md').read(),
     url='https://github.com/bitforce/cmcwrap',
-    long_description=open('./README.md', 'r').read(),
     author_email='brandon.johnson.official@gmail.com',
     keywords=['coinmarketcap', 'cryptocurrency', 'wrapper'],
     description='Python wrapper created for https://coinmarketcap.com API',
-    download_url='https://github.com/bitforce/cmcwrap/archive/1.0.1.tar.gz',
+    download_url='https://github.com/bitforce/cmcwrap/archive/1.0.0.tar.gz',
     classifiers=[
         'Natural Language :: English',
         'Intended Audience :: Developers',
