@@ -17,10 +17,7 @@ class Market(object):  # A.1
         return self._session
 
     def __request(self, endpoint, params):  # A.5
-        response_object = self.session.get(self.url + endpoint, params=params,
-                                           timeout=self.timeout)
-        if response_object.status_code != 200:
-            raise Exception('An error occurred, please try again.')
+        response_object = self.session.get(self.url + endpoint, params=params, timeout=self.timeout)
         return response_object.json()
 
     def coin(self, currency='', **kwargs):  # A.6 --> add @unused
