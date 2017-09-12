@@ -19,7 +19,7 @@ hit his Gitub up and check out his other cool projects_.
 [b]: https://badge.fury.io/py/coinwrap.svg 
 [7]: https://github.com/bitforce/Cryptocast
 [2]: https://github.com/mrsmn/coinmarketcap-api
-[4]: https://app.shippable.com/github/bitforce/coinwrap
+[4]: https://app.shippable.com/github/bitforce/Coinwrap
 [9]: https://img.shields.io/badge/license-WTFPL-blue.svg
 [8]: https://img.shields.io/badge/Issues-0-brightgreen.svg
 [3]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/badge?branch=master

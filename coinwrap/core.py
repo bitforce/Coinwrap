@@ -26,7 +26,7 @@ class Market(object):  # A.1
             response = self.__request('ticker/' + currency, params)
             return response
 
-    def stats(self, **kwargs):  # A.7 --> add @unused
+    def stats(self, **kwargs):  # A.7
             params = {}
             params.update(kwargs)
             response = self.__request('global/', params)
