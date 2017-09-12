@@ -6,16 +6,16 @@ build:
     ci:
         - pip install --upgrade pytest-cov
         - pip install --upgrade pytest
-        - pip install --upgrade cmcwrap
+        - pip install --upgrade coinwrap
         - mkdir -p shippable/codecoverage
         - mkdir -p shippable/testresults
         - pytest --junitxml=shippable/testresults/nosetests.xml
-        - pytest --cov=cmcwrap --cov-report=xml:shippable/codecoverage/coverage.xml
+        - pytest --cov=coinwrap --cov-report=xml:shippable/codecoverage/coverage.xml
 
 integrations:
     notification:
         type: irc
-        recipients: "chat.freenode.net#cmcwrap"
+        recipients: "chat.freenode.net#coinwrap"
         on_pull_request: always
         on_success: always
         on_failure: always

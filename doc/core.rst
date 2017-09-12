@@ -1,6 +1,6 @@
-===========
-core.py doc
-===========
+=======
+core.py
+=======
 
 A.1:
     While the class is not necessary for a program like this to function, in 

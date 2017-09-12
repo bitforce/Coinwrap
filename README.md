@@ -2,8 +2,8 @@
 
 [![Run Status][3]][4]
 [![Coverage Badge][5]][4]
-[![License][9]][a]
 [![PyPI version][b]][c]
+[![License][9]][a]
 
 Overview
 ---
@@ -15,11 +15,11 @@ hit his Gitub up and check out his other cool projects_.
 
 [a]: http://www.wtfpl.net/
 [1]: https://coinmarketcap.com/api/
-[c]: https://badge.fury.io/py/cmcwrap
-[b]: https://badge.fury.io/py/cmcwrap.svg 
+[c]: https://badge.fury.io/py/coinwrap
+[b]: https://badge.fury.io/py/coinwrap.svg 
 [7]: https://github.com/bitforce/Cryptocast
 [2]: https://github.com/mrsmn/coinmarketcap-api
-[4]: https://app.shippable.com/github/bitforce/cmcwrap
+[4]: https://app.shippable.com/github/bitforce/coinwrap
 [9]: https://img.shields.io/badge/license-WTFPL-blue.svg
 [8]: https://img.shields.io/badge/Issues-0-brightgreen.svg
 [3]: https://api.shippable.com/projects/59a83c3685d3e007008b9d10/badge?branch=master
@@ -32,12 +32,12 @@ Dependencies
 
 Setup
 ---
-`pip install cmcwrap` _or_ `python setup.py install`
+`pip install coinwrap` _or_ `python setup.py install`
 
 Usage
 ---
 ```
-from cmcwrap import Market
+from coinwrap import Market
 market = Market()
 market.coin('bitcoin')
 market.coin('bitcoin', limit=2)

@@ -1,4 +1,4 @@
-from cmcwrap.core import Market
+from coinwrap.core import Market
 
 
 def test_core():
