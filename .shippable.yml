@@ -1,21 +1,22 @@
 language: python
-
 python: 2.7
-
 build:
+    pre_ci:
+        - mkdir -p shippable/codecoverage
+        - mkdir -p shippable/testresults
     ci:
         - pip install --upgrade pytest-cov
         - pip install --upgrade pytest
         - pip install --upgrade coinwrap
-        - mkdir -p shippable/codecoverage
-        - mkdir -p shippable/testresults
         - pytest --junitxml=shippable/testresults/nosetests.xml
         - pytest --cov=coinwrap --cov-report=xml:shippable/codecoverage/coverage.xml
-
 integrations:
     notification:
+        integrationName: irc_integration
         type: irc
         recipients: "chat.freenode.net#coinwrap"
+        branches:
+            only: master
         on_pull_request: always
         on_success: always
         on_failure: always
