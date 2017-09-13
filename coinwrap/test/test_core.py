@@ -1,3 +1,6 @@
+from coinwrap import Market
+
+
 def test_core():
     market = Market()
     print '\ncoin()'
