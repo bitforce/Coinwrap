@@ -20,14 +20,8 @@ class Market(object):  # A.1
         response_object = self.session.get(self.url + endpoint, params=params, timeout=self.timeout)
         return response_object.json()
 
-    def coin(self, currency='', **kwargs):  # A.6 --> add @unused
-            params = {}
-            params.update(kwargs)
-            response = self.__request('ticker/' + currency, params)
-            return response
+    def coin(self, currency='', **kwargs):  # A.6
+            return self.__request('ticker/' + currency, {}.update(kwargs))
 
     def stats(self, **kwargs):  # A.7
-            params = {}
-            params.update(kwargs)
-            response = self.__request('global/', params)
-            return response
+            return self.__request('global/', {}.update(kwargs))

@@ -1,8 +1,5 @@
-from coinwrap.core import Market
-
-
 def test_core():
-    market = Market()  # change to Local
+    market = Market()
     print '\ncoin()'
     print market.coin('bitcoin', limit=1)
     print '\nstats()'

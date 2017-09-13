@@ -4,6 +4,7 @@ dist/
 
 .ropeproject/
 .cache/
+.eggs/
 
 .DS_Store
 .coverage
