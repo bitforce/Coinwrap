@@ -9,5 +9,6 @@ def test_core():
     print market.stats()
 
 
-if __name__ == '__main__':
-    test_core()
+# UNCOMMENT THIS ONLY WHEN PERFORMING LOCAL TESTS
+# if __name__ == '__main__':
+#    test_core()
