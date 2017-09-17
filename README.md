@@ -47,7 +47,10 @@ market.stats()
 
 Test
 ---
-`pytest [-s]`
+```
+python -m coinwrap.test.test_core
+pytest [-s]
+```
 
 Note
 ---

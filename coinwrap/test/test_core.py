@@ -7,8 +7,7 @@ def test_core():
     print market.coin('bitcoin', limit=1)
     print '\nstats()'
     print market.stats()
+    return True
 
 
-# UNCOMMENT THIS ONLY WHEN PERFORMING LOCAL TESTS
-# if __name__ == '__main__':
-#    test_core()
+assert test_core()
