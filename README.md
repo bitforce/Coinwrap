@@ -54,7 +54,12 @@ pytest [-s]
 
 Note
 ---
-The _-s_ option for `pytest` prints the output along with the test results.
+The _-s_ option for `pytest` prints the output along with the test results. The `-m` 
+option and following line format is necessary for Python to interpret the files as 
+modules/packages and then run them as scripts. The distinction here stemming from 
+the use of relative imports (as can be seen in the coinwrap/\_\_init\_\_.py and 
+coinwrap/test/test\_core.py files).
+
 
 _To see a useful implementation of this project, check out_ [Cryptocast][7].
 
