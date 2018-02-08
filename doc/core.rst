@@ -3,7 +3,7 @@ core.py
 =======
 
 A.1:
-    While the class is not necessary for a program like this to function, in 
+    While the class is not necessary for a program like this to function, in
     the spirit of object-oriented design, everything is self-contained.
 
 A.2:

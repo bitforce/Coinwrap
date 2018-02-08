@@ -17,8 +17,7 @@ class Market(object):  # A.1
         return self._session
 
     def __request(self, endpoint, params):  # A.5
-        response_object = self.session.get(self.url + endpoint, params=params, timeout=self.timeout)
-        return response_object.json()
+        return self.session.get(self.url + endpoint, params=params, timeout=self.timeout).json()
 
     def coin(self, currency='', **kwargs):  # A.6
             return self.__request('ticker/' + currency, {}.update(kwargs))

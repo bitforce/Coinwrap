@@ -60,6 +60,9 @@ modules/packages and then run them as scripts. The distinction here stemming fro
 the use of relative imports (as can be seen in the coinwrap/\_\_init\_\_.py and 
 coinwrap/test/test\_core.py files).
 
+_The test only applies if you are within the_ __coinwrap__ _directory that_ `pip` 
+_installs source distributions in_.
+
 
 _To see a useful implementation of this project, check out_ [Cryptocast][7].
 

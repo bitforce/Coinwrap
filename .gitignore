@@ -2,13 +2,14 @@
 _pycache__/
 dist/
 
+clean.sh
+
 .ropeproject/
 .cache/
 .eggs/
 
 .DS_Store
 .coverage
-.clean.sh
 .todo
 
 *.egg-info/
