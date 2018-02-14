@@ -10,9 +10,6 @@ Overview
 A Python wrapper for the [https://coinmarketcap.com/]() [api][1] that provides concise 
 functionality for extracting crypto-market data. 
 
-_This project was inspired by Martin Simon's_ [coinmarketcap-api][2] _; make sure to 
-hit his Gitub up and check out his other cool projects_.
-
 [a]: http://www.wtfpl.net/
 [1]: https://coinmarketcap.com/api/
 [c]: https://badge.fury.io/py/coinwrap
@@ -65,6 +62,8 @@ _installs source distributions in_.
 
 
 _To see a useful implementation of this project, check out_ [Cryptocast][7].
+
+_This project was inspired by Martin Simon's_ [coinmarketcap-api][2]
 
 License
 ---
