@@ -14,7 +14,7 @@ functionality for extracting crypto-market data.
 [1]: https://coinmarketcap.com/api/
 [c]: https://badge.fury.io/py/coinwrap
 [b]: https://badge.fury.io/py/coinwrap.svg 
-[7]: https://github.com/bitforce/Cryptocast
+[7]: https://github.com/bitforce/Coinwatch
 [2]: https://github.com/mrsmn/coinmarketcap-api
 [4]: https://app.shippable.com/github/bitforce/Coinwrap
 [9]: https://img.shields.io/badge/license-WTFPL-blue.svg
@@ -61,7 +61,7 @@ _The test only applies if you are within the_ __coinwrap__ _directory that_ `pip
 _installs source distributions in_.
 
 
-_To see a useful implementation of this project, check out_ [Cryptocast][7].
+_To see a useful implementation of this project, check out_ [Coinwatch][7].
 
 _This project was inspired by Martin Simon's_ [coinmarketcap-api][2]
 
